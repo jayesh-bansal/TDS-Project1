@@ -25,7 +25,6 @@ app.add_middleware (
     allow_headers = ['*']
 )
 
-os.environ["AIPROXY_TOKEN"] = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjEwMDE4OTVAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.U2TU0e6hnNkMzm1FZDj7A__h2Y4wN7VltiAjNHmC1p4"
 AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
 
 tools = [
